@@ -1,0 +1,19 @@
+metric,H0,Ha,col1,col2,normality_test_p_value_col1,normality_test_p_value_col2,is_normal,p_value_equal_variance_levene_test,t_stat,p_value_ttest,u_stat,p_value_mannwhitney,decision
+annualized_return,ai_algo>=standard_algo,standard_algo>ai_algo,standard_algo-annualized_return,ai_algo-annualized_return,0.06482321662741716,1.2863758559353265e-06,no,,,,438.0,0.03430582654833579,Reject H0
+annualized_return,standard_algo>=ai_algo,ai_algo>standard_algo,ai_algo-annualized_return,standard_algo-annualized_return,1.2863758559353265e-06,0.06482321662741716,no,,,,238.0,0.9670622318453879,Fail to reject H0
+annualized_volatility,ai_algo>=standard_algo,standard_algo>ai_algo,standard_algo-annualized_volatility,ai_algo-annualized_volatility,0.0026275419988238567,0.2808184676961993,no,,,,298.0,0.770713366556163,Fail to reject H0
+annualized_volatility,standard_algo>=ai_algo,ai_algo>standard_algo,ai_algo-annualized_volatility,standard_algo-annualized_volatility,0.2808184676961993,0.0026275419988238567,no,,,,378.0,0.23487157652886453,Fail to reject H0
+avg_trade_duration,ai_algo>=standard_algo,standard_algo>ai_algo,standard_algo-avg_trade_duration,ai_algo-avg_trade_duration,0.04568884738210283,1.2777566718754282e-06,no,,,,500.0,0.0015600938500150232,Reject H0
+avg_trade_duration,standard_algo>=ai_algo,ai_algo>standard_algo,ai_algo-avg_trade_duration,standard_algo-avg_trade_duration,1.2777566718754282e-06,0.04568884738210283,no,,,,176.0,0.9985300037240226,Fail to reject H0
+fees,ai_algo>=standard_algo,standard_algo>ai_algo,standard_algo-fees,ai_algo-fees,0.0029749692513460282,0.33828680541472306,no,,,,187.0,0.9972197377854433,Fail to reject H0
+fees,standard_algo>=ai_algo,ai_algo>standard_algo,ai_algo-fees,standard_algo-fees,0.33828680541472306,0.0029749692513460282,no,,,,489.0,0.0029406292709206,Reject H0
+max_drawdown,ai_algo>=standard_algo,standard_algo>ai_algo,standard_algo-max_drawdown,ai_algo-max_drawdown,6.832292611596165e-11,7.131545323723308e-05,no,,,,138.0,0.9999946083671097,Fail to reject H0
+max_drawdown,standard_algo>=ai_algo,ai_algo>standard_algo,ai_algo-max_drawdown,standard_algo-max_drawdown,7.131545323723308e-05,6.832292611596165e-11,no,,,,538.0,5.964249680725688e-06,Reject H0
+net_pnl,ai_algo>=standard_algo,standard_algo>ai_algo,standard_algo-net_pnl,ai_algo-net_pnl,0.03088724620837891,0.9216630665623418,no,,,,414.0,0.0835257925853547,Fail to reject H0
+net_pnl,standard_algo>=ai_algo,ai_algo>standard_algo,ai_algo-net_pnl,standard_algo-net_pnl,0.9216630665623418,0.03088724620837891,no,,,,262.0,0.91924948969182,Fail to reject H0
+num_trades,ai_algo>=standard_algo,standard_algo>ai_algo,standard_algo-num_trades,ai_algo-num_trades,0.0003580704742707436,0.3536865359871861,no,,,,184.0,0.9977991988331518,Fail to reject H0
+num_trades,standard_algo>=ai_algo,ai_algo>standard_algo,ai_algo-num_trades,standard_algo-num_trades,0.3536865359871861,0.0003580704742707436,no,,,,492.0,0.002331661168819122,Reject H0
+sharpe_ratio,ai_algo>=standard_algo,standard_algo>ai_algo,standard_algo-sharpe_ratio,ai_algo-sharpe_ratio,0.008377041535236938,2.6124809132931467e-08,no,,,,442.0,0.029101011372598358,Reject H0
+sharpe_ratio,standard_algo>=ai_algo,ai_algo>standard_algo,ai_algo-sharpe_ratio,standard_algo-sharpe_ratio,2.6124809132931467e-08,0.008377041535236938,no,,,,234.0,0.9720923134986714,Fail to reject H0
+win_ratio,ai_algo>=standard_algo,standard_algo>ai_algo,standard_algo-win_ratio,ai_algo-win_ratio,1.0253143576575172e-06,0.02638009775980766,no,,,,488.5,0.002027400859446355,Reject H0
+win_ratio,standard_algo>=ai_algo,ai_algo>standard_algo,ai_algo-win_ratio,standard_algo-win_ratio,0.02638009775980766,1.0253143576575172e-06,no,,,,187.5,0.9980922497689075,Fail to reject H0

@@ -1,0 +1,13 @@
+metric,H0,Ha,col1,col2,normality_test_p_value_col1,normality_test_p_value_col2,is_normal,p_value_equal_variance_levene_test,t_stat,p_value_ttest,u_stat,p_value_mannwhitney,decision
+mae,lstm>=transformer,transformer>lstm,transformer,lstm,2.5808728702976624e-08,2.860175171684062e-08,no,,,,120.0,0.8054052936078888,Fail to reject H0
+mae,transformer>=lstm,lstm>transformer,lstm,transformer,2.860175171684062e-08,2.5808728702976624e-08,no,,,,169.0,0.20421921765571271,Fail to reject H0
+mape,lstm>=transformer,transformer>lstm,transformer,lstm,3.0207304457014745e-05,0.00325242685560506,no,,,,55.0,0.9990321284774569,Fail to reject H0
+mape,transformer>=lstm,lstm>transformer,lstm,transformer,0.00325242685560506,3.0207304457014745e-05,no,,,,234.0,0.0010866250999942055,Reject H0
+mse,lstm>=transformer,transformer>lstm,transformer,lstm,2.179447939738929e-08,2.1948035376488037e-08,no,,,,121.0,0.7957807823442873,Fail to reject H0
+mse,transformer>=lstm,lstm>transformer,lstm,transformer,2.1948035376488037e-08,2.179447939738929e-08,no,,,,168.0,0.21412167409791755,Fail to reject H0
+r2,lstm>=transformer,transformer>lstm,transformer,lstm,2.619035739187603e-06,2.2958183259778164e-05,no,,,,237.0,0.0007653354184001752,Reject H0
+r2,transformer>=lstm,lstm>transformer,lstm,transformer,2.2958183259778164e-05,2.619035739187603e-06,no,,,,52.0,0.9993205665846983,Fail to reject H0
+rmse,lstm>=transformer,transformer>lstm,transformer,lstm,2.607813544168431e-08,2.8561600612044246e-08,no,,,,121.0,0.7957807823442873,Fail to reject H0
+rmse,transformer>=lstm,lstm>transformer,lstm,transformer,2.8561600612044246e-08,2.607813544168431e-08,no,,,,168.0,0.21412167409791755,Fail to reject H0
+training_time,lstm>=transformer,transformer>lstm,transformer,lstm,0.00961292139326078,0.0017783649021727856,no,,,,62.0,0.9978738541692309,Fail to reject H0
+training_time,transformer>=lstm,lstm>transformer,lstm,transformer,0.0017783649021727856,0.00961292139326078,no,,,,227.0,0.0023686858750804583,Reject H0
