@@ -33,7 +33,7 @@ The study found that the financial performance of Transformer-based PT significa
 <a id = Research_Project_Overview></a>
 ## 2. Research Project's Overview
 
-The Master's dissertation can be found [here](#add-source).
+The __Master's dissertation__ of the project can be found [here](#add-source).
 The experiment follows several steps as described in the below diagram.
 
 <picture>
