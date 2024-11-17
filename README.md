@@ -34,10 +34,11 @@ The study found that the financial performance of Transformer-based PT significa
 ## 2. Research Project's Overview
 
 The Master's dissertation can be found [here](#add-source).
+The experiment follows several steps as described in the below diagram.
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Datapyaddict/Comparative_Analysis_of_LSTM_and_Transformer_Models_for_HF_Cryptocurrency_Pairs_Trading_on_Binance/blob/main/PICTURES/experiment_diagram.png">
-  <img src="https://github.com/Datapyaddict/Comparative_Analysis_of_LSTM_and_Transformer_Models_for_HF_Cryptocurrency_Pairs_Trading_on_Binance/blob/main/PICTURES/experiment_diagram.png" width="300">
+  <img src="https://github.com/Datapyaddict/Comparative_Analysis_of_LSTM_and_Transformer_Models_for_HF_Cryptocurrency_Pairs_Trading_on_Binance/blob/main/PICTURES/experiment_diagram.png" width="900">
 </picture>
 
 This project uses Google Colab and the AT100 GPU facility to build DL models.
