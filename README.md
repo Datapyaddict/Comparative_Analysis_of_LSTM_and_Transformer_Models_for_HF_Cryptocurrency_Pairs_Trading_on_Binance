@@ -38,7 +38,7 @@ The experiment follows several steps as described in the below diagram.
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Datapyaddict/Comparative_Analysis_of_LSTM_and_Transformer_Models_for_HF_Cryptocurrency_Pairs_Trading_on_Binance/blob/main/PICTURES/experiment_diagram.png">
-  <img src="https://github.com/Datapyaddict/Comparative_Analysis_of_LSTM_and_Transformer_Models_for_HF_Cryptocurrency_Pairs_Trading_on_Binance/blob/main/PICTURES/experiment_diagram.png" width="900">
+  <img src="https://github.com/Datapyaddict/Comparative_Analysis_of_LSTM_and_Transformer_Models_for_HF_Cryptocurrency_Pairs_Trading_on_Binance/blob/main/PICTURES/experiment_diagram.png" width="800">
 </picture>
 
 This project uses Google Colab and the AT100 GPU facility to build DL models.
