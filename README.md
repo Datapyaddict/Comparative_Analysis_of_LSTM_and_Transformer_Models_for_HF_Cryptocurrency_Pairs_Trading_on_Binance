@@ -15,18 +15,18 @@
 ## 1. Abstract
 
 The aim of this research is twofold: 
-> first, to compare the predictive capabilities of two vanilla Deep Learning models (DL), Long Short-Term Memory (LSTM) and Transformer, specifically focusing on high-frequency (HF) cryptocurrencies forming cointegrated pairs over the period from 01/01/2023 to 23/01/2023. 
+> first, to compare the predictive capabilities of two vanilla __Deep Learning models (DL)__, __Long Short-Term Memory (LSTM)__ and __Transformer__, specifically focusing on __high-frequency__ (HF) __cryptocurrencies__ forming __cointegrated pairs__ over the period from 01/01/2023 to 23/01/2023. 
 
-> Second, leveraging the optimal DL model, the study examines the profitability of different AI-based algorithmic pair trading (PT) strategies against traditional rule-based algorithmic PT strategies within a back-testing framework, with an emphasis on identifying the conditions under which the AI-based strategies can outperform the traditional ones.
+> Second, leveraging the optimal DL model, the study examines the profitability of different __AI-based algorithmic pair trading__ (PT) strategies against traditional __rule-based algorithmic PT__ strategies within a __back-testing__ framework, with an emphasis on identifying the conditions under which the AI-based strategies can outperform the traditional ones.
 
-The motivation for this work arises primarily from the high volatility observed in cryptocurrency markets compared to other financial markets, offering a unique opportunity to investigate the statistical characteristics of HF cointegrated cryptocurrencies. Additionally, while LSTM models have demonstrated success in PT applications, there is limited literature on the integration of Transformers into algorithmic PT, highlighting the need for further exploration in this area.
+The motivation for this work arises primarily from the __high volatility__ observed in cryptocurrency markets compared to other financial markets, offering a unique opportunity to investigate the __statistical characteristics__ of HF cointegrated cryptocurrencies. Additionally, while LSTM models have demonstrated success in PT applications, there is limited literature on the integration of Transformers into algorithmic PT, highlighting the need for further exploration in this area.
 
 From an ethical perspective, this research does not involve any human or qualitative data. However, integrating complex ML models into trading decisions raises accountability issues. These models can carry biases that may influence outcomes against certain cryptocurrencies. Additionally, when combined with algorithmic trading, ML models can enhance opportunities for market manipulation. For individuals without access to advanced ML-based algorithmic trading technology, this creates economic inequalities.
 
-The methodology follows a systematic approach involving several steps. First, the most liquid pairs are identified using the monetary volume. Then, cointegrated pairs are determined in the in-sample period and evaluated in the out-of-sample period. Based on the actual prices of the coins forming the pairs over the respective in-samples and out-of-samples, two vanilla LSTM and Transformer models are trained and evaluated to ensure acceptable processing time. Vanilla Transformers were found to significantly outperform vanilla LSTM models in terms of processing time and errors and were used to predict prices, from which the predicted spreads were calculated and compared to the actual spreads. The pairs that exhibit low prediction errors and high correlation and cointegration relationships in the predicted spreads are elected for PT. 
-The predicted and actual spreads were then used in algorithmic PT strategies using the rolling Z-score and different rolling windows, resulting in multiple PT strategies. 
+The methodology follows a systematic approach involving several steps. First, the __most liquid pairs__ are identified using the __monetary volume__. Then, cointegrated pairs are determined in the __in-sample period__ and evaluated in the __out-of-sample period__. Based on the actual prices of the coins forming the pairs over the respective in-samples and out-of-samples, two vanilla LSTM and Transformer models are trained and evaluated to ensure acceptable processing time. Vanilla Transformers were found to significantly outperform vanilla LSTM models in terms of processing time and errors and were used to predict prices, from which the predicted spreads were calculated and compared to the actual spreads. The pairs that exhibit low __prediction errors__ and __high correlation__ and __cointegration__ relationships in the predicted spreads are elected for PT. 
+The predicted and actual spreads were then used in algorithmic PT strategies using the __rolling Z-score__ and different rolling windows, resulting in multiple PT strategies. 
 
-The study found that the financial performance of Transformer-based PT significantly underperformed compared to rule-based algorithmic PT when evaluated using the Sharpe ratio, annualised return, and win ratio. This aligns with the fact that Transformer-based PT is significantly riskier, involving a higher number of trades, increased fees, shorter average duration, and a greater maximum drawdown. 
+The study found that the financial performance of Transformer-based PT significantly underperformed compared to rule-based algorithmic PT when evaluated using the __Sharpe ratio__, annualised return, and win ratio. This aligns with the fact that Transformer-based PT is significantly riskier, involving a higher number of trades, increased fees, shorter average duration, and a greater maximum drawdown. 
 
 
 
@@ -41,9 +41,9 @@ The experiment follows several steps as described in the below diagram.
   <img src="https://github.com/Datapyaddict/Comparative_Analysis_of_LSTM_and_Transformer_Models_for_HF_Cryptocurrency_Pairs_Trading_on_Binance/blob/main/PICTURES/experiment_diagram.png" width="800">
 </picture>
 
-This project uses Google Colab and the AT100 GPU facility to build DL models.
+This project uses __Google Colab__ and the AT100 GPU facility to build DL models.
 The artefacts consist of :
-1. a database SQLite ["binance_prices.db"](#https://www.kaggle.com/datasets/anhtuanng/binance-prices) (Size 2.3 Go) located on __Kaggle__. It contains minute-interval cryptocurrency prices for all USDT quoted coins in Binance, and  covers the period of January 2023.
+1. a database SQLite [binance_prices.db](https://www.kaggle.com/datasets/anhtuanng/binance-prices) (Size 2.3 Go) located on __Kaggle__. It contains __minute-interval cryptocurrency prices__ for all __USDT quoted coins__ in __Binance__, and  covers the period of January 2023.
 
 2. __5 Jupyter notebooks__ that have to be run sequentially: 
     - script_1.ipynb,
@@ -61,7 +61,7 @@ The artefacts consist of :
 ## 3. Artefact Repository Tree Architecture
 
 The following folders have to be created manually in Google Colab. 
-It is worth noting that all sub folders are created by the Jupyter notebooks.
+It is worth noting that all sub folders are created by the __Jupyter notebooks__.
 
     - drive/MyDrive/PROJECT/binance_prices.db
     - drive/MyDrive/PROJECT/SPREADS/ACTUAL/*
@@ -74,7 +74,7 @@ It is worth noting that all sub folders are created by the Jupyter notebooks.
     - drive/MyDrive/PROJECT/BACKTESTING/*
     - drive/MyDrive/Colab Notebooks/PROJECT/SCRIPTS/*
 
-The database ["binance_prices.db"](#https://www.kaggle.com/datasets/anhtuanng/binance-prices) must be placed at the root of the project folder in Google Colab, after it is built locally by running the notebook `script_1.ipynb`. Indeed, it is not possible to run the latter in Google Colab to fetch Biance prices.
+The database [binance_prices.db](https://www.kaggle.com/datasets/anhtuanng/binance-prices) must be placed at the root of the project folder in Google Colab, after it is built locally by running the notebook `script_1.ipynb`. Indeed, it is not possible to run the latter in Google Colab to fetch Biance prices.
 
 The artefacts from the repository need to be placed according to their respective paths in the project folder.
 
