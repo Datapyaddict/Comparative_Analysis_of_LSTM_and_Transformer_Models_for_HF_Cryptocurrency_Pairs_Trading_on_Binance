@@ -3,29 +3,15 @@
 ***
 
 ## Table of Contents
-[1. Abstract](#purpose)  
-[2. Data sources](#data_source)  
-[4. Data processing](#data_processing)  
-> [4.1 Data model](#data_model)  
-> [4.2 Data dictionary](#data_dictionary)  
-> [4.3 Dealing with duplicates in the data lake](#data_quality_issues)  
-> [4.4 Data quality controls](#data_quality_control)  
+[1. Abstract](#Abstract)  
+[2. Research Project's Overview](#Research_Project_Overview)  
+[3. Artefact Repository Tree Architecture](#Artefact_Repository_Tree_Architecture)  
+[5. Jupyter Notebooks](#Jupyter_Notebooks)  
 
-[5. Airflow Pipeline](#pipeline)  
-> [5.1 Pre-requisites to pipeline run](#pipeline_pre_requisites)   
-> [5.2 Pipeline run commands ](#pipeline_run_commands)  
-> [5.3 Using Airflow interface to monitor the pipeline](#airflow_interface)  
-
-[6. Data exploration into the staging area and the data lake using Jupyter Lab](#data_exploration)  
-> [6.1 Pre-requisites to Jupyter Lab run](#jupyter_pre_requisites)   
-> [6.2 Jupyter Lab run commands ](#jupyter_run_commands)  
-> [6.3 Data exploration with Jupyter Lab](#data_exploration)  
-
-[7. Next steps](#next_steps)  
 
 ****
 
-<a id = 'purpose'></a>
+<a id = 'Abstract'></a>
 ## 1. Abstract
 
 The aim of this research is twofold: 
@@ -44,7 +30,7 @@ The study found that the financial performance of Transformer-based PT significa
 
 
 
-<a id = 'Udacity_requirements'></a>
+<a id = Research_Project_Overview></a>
 ## 2. Research Project's Overview
 
 The Master's dissertation can be found [here](#add-source).
@@ -65,7 +51,7 @@ The artefacts consist of :
 4. various output files from the scripts.
 
 
-<a id = 'data_source'></a>
+<a id = 'Artefact_Repository_Tree_Architecture'></a>
 ## 3. Artefact Repository Tree Architecture
 
 The following folders have to be created manually in Google Colab. 
@@ -97,7 +83,7 @@ The folders SPREADS, PRICES, MOST_LIQUID_COINS, EXPLORATIVE_DATA_ANALYSIS, BACKT
 
 
 
-<a id = 'data_processing'></a>
+<a id = 'Jupyter_Notebooks'></a>
 ## 4. Jupyter Notebooks
 
 <table>
@@ -273,7 +259,7 @@ Ex :
 
 
 <tr>
-    <td rowspan = "3"> script_4</td>
+    <td rowspan = "3"> script_5</td>
     <td rowspan = "3">
         Backtesting results, models' performance results.    
     </td>
