@@ -35,6 +35,11 @@ The study found that the financial performance of Transformer-based PT significa
 
 The Master's dissertation can be found [here](#add-source).
 
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Datapyaddict/Comparative_Analysis_of_LSTM_and_Transformer_Models_for_HF_Cryptocurrency_Pairs_Trading_on_Binance/blob/main/PICTURES/experiment_diagram.png">
+  <img src="https://github.com/Datapyaddict/Comparative_Analysis_of_LSTM_and_Transformer_Models_for_HF_Cryptocurrency_Pairs_Trading_on_Binance/blob/main/PICTURES/experiment_diagram.png" width="300">
+</picture>
+
 This project uses Google Colab and the AT100 GPU facility to build DL models.
 The artefacts consist of :
 1. a database SQLite ["binance_prices.db"](#https://www.kaggle.com/datasets/anhtuanng/binance-prices) (Size 2.3 Go) located on __Kaggle__. It contains minute-interval cryptocurrency prices for all USDT quoted coins in Binance, and  covers the period of January 2023.
@@ -85,6 +90,8 @@ The folders SPREADS, PRICES, MOST_LIQUID_COINS, EXPLORATIVE_DATA_ANALYSIS, BACKT
 
 <a id = 'Jupyter_Notebooks'></a>
 ## 4. Jupyter Notebooks
+
+The following Jupyter notebooks are found in ./SCRIPTS folder.
 
 <table>
 <tr>
