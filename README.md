@@ -33,7 +33,7 @@ The study found that the financial performance of Transformer-based PT significa
 <a id = Research_Project_Overview></a>
 ## 2. Research Project's Overview
 
-The __Master's dissertation__ of the project can be found [here](https://www.dropbox.com/scl/fi/btxpnoq3rcf9dhddvjeq0/Msc-in-CS-with-AI-Research-Project-Dissertation.pdf?rlkey=ldgkzlgs9tqkebha5hs125jnp&st=hd7xphqp&dl=0).
+The __Master's dissertation__ of the project can be found [here](https://github.com/Datapyaddict/Comparative_Analysis_of_LSTM_and_Transformer_Models_for_HF_Cryptocurrency_Pairs_Trading_on_Binance/blob/main/DOCUMENTS/Msc_in_CS%20with_AI-Research_Project_Dissertation.pdf).
 The experiment follows several steps as described in the below diagram.
 
 <picture>
